@@ -11,7 +11,12 @@ Diversas Consultas em SQL para realização de analise assertivas.
 
 ## *Veja os resultados:*
 
-*Top 5 Produtos que  tiveram Maior Quantidade de Vendas no mês de setembro de 1996*
+Questionamentos:  
+*-Top 5 Produtos que  tiveram Maior Quantidade de Vendas no mês de setembro de 1996* <br>
+*-Top 5 Clientes que tiveram maior gasto no mês de setembro de 1996* <br>
+*-Lista de Paises Que mais Gastarm na Categoria Bebidas* <br>
+*-Lista de Todos os Clientes Que Compram Produtos da Categoria Bebida* <br>
+
 
 *Consulta*
 
