@@ -1,5 +1,5 @@
 -- Consulta 
--- Top 3 Produtos que  tiveram Maior Quantidade de Vendas no mês de setembro de 1996
+-- Top 3 Produtos que  tiveram Maior Quantidade de Vendas no mÃªs de setembro de 1996
 use EMPRESA_DB
 select TOP 5 PR.Descricao, SUM(D.quantidade) total from TB_PRODUTO as PR
 join TB_DETALHE_PEDIDO as D ON PR.ProdutoId= d.ProdutoId 
@@ -8,7 +8,7 @@ where P.DataPedido Between '1996-07-01' and '1996-07-31'
 group by PR.Descricao
 Order BY SUM(D.QUantidade) desc
 
--- Top 3 Clientes que tiveram maior gasto no mês de setembro de 1996
+-- Top 3 Clientes que tiveram maior gasto no mÃªs de setembro de 1996
 select top 5 C.NomeCompleto, SUM(DP.Preco) total from TB_CLIENTE as C
 join TB_PEDIDO as P ON C.ClienteId = P.ClienteId
 join TB_DETALHE_PEDIDO as DP ON p.NumeroPedido = DP.NumeroPedido
