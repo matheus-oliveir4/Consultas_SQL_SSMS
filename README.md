@@ -1,5 +1,5 @@
 # Consultas_SQL_SSMS
-Diversas Consultas em SQL para realização de analise assertivas.
+Consultas em SQL para realização de analise assertivas.
 
 -- Nesse projeto realizei algumas Consultas para criar indicadores interessantes a serem analisados. <br>
 -- Fiz uso de clausula como JOiN, GROUP BY, ORDER BY e WHERE que proporcionam analises mais assertivas.<br>
